@@ -8,7 +8,7 @@ module ScribdFu
                    'application/msword', 'application/mspowerpoint',
                    'application/vnd.ms-powerpoint', 'application/excel',
                    'application/vnd.ms-excel', 'application/postscript',
-                   'text/plain', 'application/rtf',
+                   'text/plain', 'application/rtf', 'text/rtf',
                    'application/vnd.oasis.opendocument.text',
                    'application/vnd.oasis.opendocument.presentation',
                    'application/vnd.oasis.opendocument.spreadsheet',
