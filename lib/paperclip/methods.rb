@@ -68,7 +68,7 @@ module ScribdFu
       # +before_destroy+, as set up by ScribdFu::ClassMethods#extended.
       def destroy_scribd_documents
         self.class.scribd_attributes.each do |attribute|
-          document = scribd_document_for(self["#{attribute}_scribd_id"])
+          document = scribd_document_for(attribute)
 
           unless document.nil?
             if document.destroy
