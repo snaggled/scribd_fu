@@ -1,0 +1,18 @@
+sqlite:
+  :adapter: sqlite
+  :database: ":memory:"
+sqlite3:
+  :adapter: sqlite3
+  :database: ":memory:"
+postgresql:
+  :adapter: postgresql
+  :username: postgres
+  :password: postgres
+  :database: scribd_fu_plugin_test
+  :min_messages: ERROR
+mysql:
+  :adapter: mysql
+  :host: localhost
+  :username: rails
+  :password:
+  :database: scribd_fu_plugin_test 
